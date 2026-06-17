@@ -33,40 +33,5 @@ generatedPassword = "".join(random.choices(password,k=passwordLength))
 print(generatedPassword)
 
 
-
-# if upperCaseValidation == "Y" and digitsValidation == "Y" and symbolsValidation == "Y":
-#     password = upperCaseLetters + lowerCaseLetters + digits + symbols
-#
-#
-# elif upperCaseValidation == "Y" and digitsValidation == "Y" and symbolsValidation != "Y":
-#     password = upperCaseLetters + lowerCaseLetters + digits
-#
-# elif upperCaseValidation == "Y" and digitsValidation != "Y" and symbolsValidation == "Y":
-#     password = upperCaseLetters + lowerCaseLetters + symbols
-#
-# elif upperCaseValidation != "Y" and digitsValidation == "Y" and symbolsValidation == "Y":
-#     password = lowerCaseLetters + digits + symbols
-#
-# elif upperCaseValidation == "Y" and digitsValidation != "Y" and symbolsValidation != "Y":
-#     password = upperCaseLetters + lowerCaseLetters
-#
-# elif upperCaseValidation != "Y" and digitsValidation == "Y" and symbolsValidation != "Y":
-#     password = lowerCaseLetters + digits
-#
-# elif upperCaseValidation != "Y" and digitsValidation != "Y" and symbolsValidation == "Y":
-#     password = lowerCaseLetters + symbols
-
-# try:
-#
-#     if upperCaseValidation != "Y" and upperCaseValidation != "N":
-#         print("Enter just a y or n letter")
-#
-#
-#     # elif digitsValidation != "Y" and digitsValidation != "N":
-#     #
-#     #     pass
-#     # elif symbolsValidation != "Y" and symbolsValidation != "N":
-#     #     pass
-#
 # except ValueError:
 #     print("Enter just a y or n letter")
